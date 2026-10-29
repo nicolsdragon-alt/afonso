@@ -1,4 +1,3 @@
-// Array fornecido
 const dadosNicolasMakiyama = [
   { produto: "Câmera DSLR", categoria: "Câmera", quantidade: 5, preco: 3200 },
   { produto: "Lente 50mm", categoria: "Lente", quantidade: 8, preco: 950 },
