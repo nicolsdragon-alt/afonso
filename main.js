@@ -1,4 +1,4 @@
-
+// Array fornecido
 const dadosNicolasMakiyama = [
   { produto: "Câmera DSLR", categoria: "Câmera", quantidade: 5, preco: 3200 },
   { produto: "Lente 50mm", categoria: "Lente", quantidade: 8, preco: 950 },
@@ -15,7 +15,8 @@ function formatarMoeda(valor) {
 }
 
 
-dadosNicolasMakiyama.forEach(item => {
+for (let i = 0; i < dadosNicolasMakiyama.length; i++) {
+    const item = dadosNicolasMakiyama[i];
     const linha = document.createElement('tr');
 
     linha.innerHTML = `
@@ -26,4 +27,4 @@ dadosNicolasMakiyama.forEach(item => {
     `;
 
     tabelaCorpo.appendChild(linha);
-});
+}
